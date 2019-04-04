@@ -7,12 +7,12 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+  <!-- Website for check mark:  https://getbootstrap.com/docs/4.0/components/forms/ -->
 </head>
 
-
 <body>
-    <nav>
-      <div class="topnav">
+  <nav>
+    <div class="topnav">
       <img src="mainlogo.png">
       <a class="active" href="#Name">Company Name</a>
       <div class="topnav-right">
@@ -21,35 +21,194 @@
         <a href="#contact">Contact</a>
         <a href="#help">Help</a>
       </div>
-      </div>
-    </nav>
-    
-    <section class="slide-container">
-      <div class="image-container">
-        <img src="train img(1).jpg" class="slider-image">
-        <img src="uber image.png" class="slider-image">
-        <img src="mta map.png" class="slider-image">
-      </div>
-    </section>
+    </div>
+  </nav>
+  <!-- Trying to create a slideshow -->
+  <header class="container">
+    <div class="mySlides fade">
+      <img src="img1.jpg">
+    </div>
+  </header>
 
-    <!-- this is shafeein's thing adding in the different transportations and how to move -->
+  <!-- this is shafeein 's thing adding in the different transportations and how to move -->
+  <hr>
+  <section class="services container">
+    <h1>Transportation Pricing</h1>
     <hr>
-    <section class="pricing container">
-      <h1>Transportation Pricing</h1>
-      <hr>
-      <div class="row">
-        <div class="col-lg-4">
-          <p>gdgdfgrgergregdger</p>
+    <div class="row">
+      <div class="col-lg-6 train" style="border-right:solid 1px;">
+        <p>Trains</p>
+        <img src="train.png"></img>
+        <h4 class="journey">Route A Journey</h4>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Leaving Destination</span>
+          </div>
+          <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
         </div>
-        <div class="col-lg-4>">
-          <p>MetroCards</p>
-        </div>
-        <div class="col-lg-4>">
-          <img src="ferry.jpg"></img>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Default</span>
+          </div>
+          <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
         </div>
       </div>
-    </section>
 
+      <div class="col-lg-6 ferry">
+        <p>Ferry</p>
+        <img src="ferry.jpg"></img>
+        <h4 class="journey">Route A Journey</h4>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Leaving Port</span>
+          </div>
+          <input type="text" class="form-control" aria-label="Leaving Port" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Destination Port</span>
+          </div>
+          <input type="text" class="form-control" aria-label="Destination Port" aria-describedby="inputGroup-sizing-default">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+  <!--Trusted by-->
+  <section class="trustedby container">
+    <h2>Trusted By</h2>
+    <div class="row">
+      <div class="col-md-3">
+        <img src="mta logo.png" class=img1>
+        <h5>MTA</h5>
+      </div>
+      <div class="col-md-3">
+        <img src="nyc gov.png" class=img2>
+        <h5>NY State Gov</h5>
+      </div>
+      <div class="col-md-3">
+        <img src="uber logo.png" class=img3>
+        <h5>Uber</h5>
+      </div>
+      <div class="col-md-3">
+        <img src="ferry.jpg" class=img4>
+        <h5>NYC Ferry</h5>
+      </div>
+      </div>
+  </section>
+
+  <hr>
+
+  <!--Team-->
+  <section class="team container">
+    <h2>Our Team</h2>
+    <div class="row text-center">
+      <div class="col-md-3">
+        <!--Image of people-->
+        <img src="Paul-Wiededeld.png" style="width:100%;">
+        <h4>John Brown</h4>
+        <p>Manager</p>
+      </div>
+      <div class="col-md-3">
+        <!--Image of people-->
+        <img src="Paul-Wiededeld.png" style="width:100%;">
+        <h4>John Brown</h4>
+        <p>Manager</p>
+      </div>
+      <div class="col-md-3">
+        <!--Name of people-->
+        <img src="Paul-Wiededeld.png" style="width:100%;">
+        <h4>John Brown</h4>
+        <p>Manager</p>
+      </div>
+      <div class="col-md-3">
+        <!--Name of people-->
+        <img src="Paul-Wiededeld.png" style="width:100%;">
+        <h4>John Brown</h4>
+        <p>Manager</p>
+      </div>
+
+    </div>
+  </section>
+
+  <hr>
+
+  <!--Contact-->
+  <section class="contact container">
+    <h2>Contact Us</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Name</span>
+          </div>
+          <textarea class="form-control" aria-label="Name"></textarea>
+        </div>
+        <br>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Email</span>
+          </div>
+          <textarea class="form-control" aria-label="Email"></textarea>
+        </div>
+        <br>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Telephone</span>
+          </div>
+          <textarea class="form-control" aria-label="Telephone"></textarea>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <textarea class="form-control" aria-label="Name"></textarea>
+        <button class="btn btn-lg btn-success">Submit</button>
+      </div>
+    </div>
+
+  </section>
+
+  <hr>
+
+  <!--Footer-->
+  <section class="footer container">
+    <div class="row">
+      <div class="col-lg-4">
+        <h5>Contact Us</h5>
+        <p><i class="fas fa-home">Address</p></i>
+          <p><i class="fas fa-envelope">Email</p></i>
+            <p><i class="fas fa-phone">Phone</p></i>
+      </div>
+
+      <div class="col-lg-4">
+        <h5>About</h5>
+        <p><i class="fas fa-home">Address</p></i>
+          <p><i class="fas fa-envelope">Email</p></i>
+            <p><i class="fas fa-phone">Phone</p></i>
+      </div>
+
+      <div class="col-lg-4">
+        <h5>Social Media</h5>
+          <i class="fab fa-facebook"></i><i class="fab fa-instagram"></i><i class="fab fa-linkedin"></i>
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+          </form>
+          <button class="btn btn-lg btn-success">Subscrirbe</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- Function for the slideshow -->
 </body>
 
 
