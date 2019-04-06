@@ -88,4 +88,21 @@
 .journey {
    text-align: left;
 }
-
+.slideshow
+{
+   height: 450px;
+}
+.motto
+{
+   text-align:center;
+   font-weight:bold;
+   font-size:50px;
+}
+body
+{
+   background: linear-gradient(to bottom, #0066ff 0%, #ff99cc 100%);
+}
+header
+{
+   background: lightblue;
+}
