@@ -26,6 +26,7 @@
    color:black;
 }
 
+
 .topnav a {
    color: #f2f2f2;
    text-align: center;
@@ -65,31 +66,31 @@
 }
 
 /* Editing the images of trusted by section*/
-
-.trustedby .img1 {
-   height: 200px;
-   width: 200px;
+.partner with h2{
+   text-align:center;
+}
+.responsive img{
+    width:200px;
+    height:200px;
 }
 
-.trustedby .img2 {
-   border-radius: 100%;
-   width: 200px;
-   height: 200px;
+.responsive1 img{
+    width:200px;
+    height:200px;
+    text-align: left;
 }
 
-.trustedby .img3 {
-   width: 200px;
-   height: 200px;
+.responsive2 img{
+    width:200px;
+    height:200px;
 }
 
-.trustedby .img4 {
-   width: 200px;
-   height: 200px;
+.responsive3 img{
+    width:200px;
+    height:200px;
+    text-align: left;
 }
 
-.trustedby {
-   text-align: center;
-}
 
 .team {
    text-align: center;
